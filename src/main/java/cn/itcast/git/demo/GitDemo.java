@@ -11,5 +11,6 @@ public class GitDemo {
         System.out.println("=========test git===========");
         System.out.println("=========clone git===========");
         System.out.println("=========clone git2===========");
+        System.out.println("=========clone git3===========");
     }
 }
