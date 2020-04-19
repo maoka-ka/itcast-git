@@ -14,6 +14,6 @@ public class GitDemo {
         System.out.println("=========clone git3===========");
         System.out.println("=========clone git4===========");
         System.out.println("====协同者添加了一行=======");
-        System.out.println("==我也添加了一行=====");
+
     }
 }
