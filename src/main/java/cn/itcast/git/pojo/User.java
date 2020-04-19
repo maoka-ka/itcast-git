@@ -8,13 +8,16 @@ package cn.itcast.git.pojo;
 public class User {
     private Integer id;
     private String name;
+    private String sex;
+
 
     public User() {
     }
 
-    public User(Integer id, String name) {
+    public User(Integer id, String name, String sex) {
         this.id = id;
         this.name = name;
+        this.sex = sex;
     }
 
     /**
@@ -49,7 +52,23 @@ public class User {
         this.name = name;
     }
 
+    /**
+     * 获取
+     * @return sex
+     */
+    public String getSex() {
+        return sex;
+    }
+
+    /**
+     * 设置
+     * @param sex
+     */
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
     public String toString() {
-        return "User{id = " + id + ", name = " + name + "}";
+        return "User{id = " + id + ", name = " + name + ", sex = " + sex + "}";
     }
 }
