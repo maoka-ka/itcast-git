@@ -14,5 +14,6 @@ public class GitDemo {
         System.out.println("=========clone git3===========");
         System.out.println("=========clone git4===========");
         System.out.println("=========master=========");
+        System.out.println("=======dev===========");
     }
 }
