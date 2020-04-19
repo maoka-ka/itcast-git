@@ -18,6 +18,7 @@ public class GitDemo {
         System.out.println("====master分支添加了一句=====");
         System.out.println("====dev分支删除后又重新创建同名分支");
         System.out.println("=====添加了一行======");
+        System.out.println("=====手动在远程仓库添加了一行======");
 
     }
 }
