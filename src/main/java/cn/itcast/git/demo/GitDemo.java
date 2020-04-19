@@ -9,5 +9,6 @@ public class GitDemo {
     public static void main(String[] args) {
         System.out.println("=========idea git===========");
         System.out.println("=========test git===========");
+        System.out.println("=========clone git===========");
     }
 }
